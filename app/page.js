@@ -1,11 +1,13 @@
-import Image from "next/image";
+import { Button } from "@/components/ui/button";
+
 
 export default function Home() {
-  let heklko; 
+
 
   return (
     <div>
-      
+      <h2>Project Management App</h2>
+      <Button>Click Here</Button>
     </div>
   );
 }
